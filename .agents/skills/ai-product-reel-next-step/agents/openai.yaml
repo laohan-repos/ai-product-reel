@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Product Reel 下一步"
+  short_description: "检查项目真实进度并推荐一个具有验收标准的下一步开发闭环"
+  default_prompt: "使用 $ai-product-reel-next-step 检查当前项目进度并告诉我下一步该做什么。"
