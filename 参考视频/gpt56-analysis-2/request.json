@@ -1,0 +1,9 @@
+{
+  "model": "gpt-5.6-sol",
+  "temperature": 0.7,
+  "prompt": "分析这张按时间顺序抽帧拼接的参考视频总览图。粗略拆分主要镜头结构，判断连续画面是否属于同一展示动作及场景、构图、景别、展示方式、手部动作与画面目的的明显变化。不要过度拆分或逐帧精确。只输出以下 Markdown 格式：## Shot 编号；- 开始时间：；- 结束时间：；- 主要内容：；- 展示目的：。展示目的请使用通用表达。不要添加额外说明。",
+  "images": [
+    "/Users/alines/Desktop/source code/codex/ai-product-reel/参考视频/reference-overview.jpg"
+  ],
+  "image_mime_types": ["image/jpeg"]
+}
