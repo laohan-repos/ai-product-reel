@@ -2,19 +2,21 @@
 
 基于参考视频结构，使用 AI 自动生成产品故事板、关键帧、分镜视频、最终成片和剪映草稿。
 
-这个仓库不仅提供一个可运行的 AI 视频应用，也是一套完整的 Codex 实战教学项目。你可以按照仓库中的需求文档、开发路线、页面交互说明和设计图，学习如何让 Codex 从零实现一个包含前端、数据库、模型调用、异步任务和 FFmpeg 媒体处理的完整产品。
+这个仓库不仅提供一个可运行的 AI 视频应用，也是一套 Codex 实战教学项目。你可以参考仓库中的需求文档和真实运行截图，学习如何让 Codex 实现一个包含前端、数据库、模型调用、异步任务和 FFmpeg 媒体处理的产品。
 
-## 项目效果
+## 项目运行界面
 
 ### PC 端
 
-![AI Product Reel PC 端设计](./docs/design/ai-product-reel-pc.png)
+![AI Product Reel PC 端真实运行界面](./docs/design/ai-product-reel-pc.png)
 
 ### 移动端
 
 <p align="center">
-  <img src="./docs/design/ai-product-reel-mobile.png" width="420" alt="AI Product Reel 移动端设计" />
+  <img src="./docs/design/ai-product-reel-mobile.png" width="420" alt="AI Product Reel 移动端真实运行界面" />
 </p>
+
+[查看全部桌面端和移动端截图](./docs/design/README.md)。
 
 ## 项目能做什么
 
@@ -66,7 +68,7 @@
 - 如何使用 FFmpeg 处理真实视频。
 - 如何通过验收标准、测试和 Git 提交控制 Codex 的改动质量。
 
-建议不要一次要求 Codex 完成整个项目。按照开发路线逐个实现闭环，每完成一个阶段就检查 diff、运行验证并提交代码。
+建议不要一次要求 Codex 完成整个项目。按照需求文档中的实施顺序逐个实现闭环，每完成一个阶段就检查 diff、运行验证并提交代码。
 
 ## 技术栈
 
@@ -255,16 +257,10 @@ ai-product-reel/
 
 本地运行生成的数据库默认位于 `.data/`，该目录不会提交到 Git。
 
-## 教学文档
+## 需求文档与运行截图
 
-建议按以下顺序阅读：
-
-1. [产品需求文档](./docs/product-requirements.md)：了解产品目标、功能范围、数据模型和验收标准。
-2. [开发路线](./docs/development-roadmap.md)：按照里程碑逐步让 Codex 实现项目。
-3. [页面交互说明](./docs/page-interaction-guide.md)：明确每个页面、状态和用户操作。
-4. [PC 与移动端设计规范](./docs/responsive-design-spec.md)：了解布局、断点、组件和双端适配方式。
-5. [PC 设计图](./docs/design/ai-product-reel-pc.png)：查看完整桌面工作流。
-6. [移动端设计图](./docs/design/ai-product-reel-mobile.png)：查看关键帧页面的移动端适配。
+- [需求文档](./docs/需求文档.md)：了解当前六步工作流、功能模块、验收要点和建议实施顺序。
+- [全部运行截图](./docs/design/README.md)：查看作品、素材、模型设置、批量生成和六步工作台的桌面端及移动端界面。
 
 ## 下一步导航 Skill
 
@@ -279,10 +275,10 @@ $ai-product-reel-next-step 检查当前项目进度并告诉我下一步该做�
 也可以使用自然语言：
 
 ```text
-按课程路线检查一下，我下一步应该实现什么？
+按需求文档的实施顺序检查一下，我下一步应该实现什么？
 ```
 
-Skill 会读取 Git 状态、开发路线、相关验收标准和真实代码证据，并输出：
+Skill 会读取 Git 状态、需求文档、相关验收标准和真实代码证据，并输出：
 
 - 当前阶段及完成状态。
 - 支持判断的文件、测试或命令证据。
@@ -299,10 +295,8 @@ Skill 会读取 Git 状态、开发路线、相关验收标准和真实代码证
 ```text
 请先阅读：
 1. AGENTS.md；
-2. docs/product-requirements.md；
-3. docs/development-roadmap.md 中的当前阶段；
-4. docs/page-interaction-guide.md；
-5. node_modules/next/dist/docs 中与本任务相关的文档。
+2. docs/需求文档.md 中与本任务相关的功能要求和验收要点；
+3. node_modules/next/dist/docs 中与本任务相关的文档（修改 Next.js 代码时）。
 
 本次目标：<只填写一个明确的功能目标>。
 允许修改：<目录或模块>。

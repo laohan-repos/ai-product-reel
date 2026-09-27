@@ -14,7 +14,7 @@ This skill has two behaviors:
 - **Advise:** Default for requests such as “下一步做什么”, “检查进度”, or “课程该讲哪一步”. Inspect and recommend, but do not edit files.
 - **Continue:** When the user explicitly asks to implement, fix, or complete the next step, first identify the step and then execute only that bounded loop. Do not interpret “tell me the next step” as permission to modify code, commit, push, deploy, or call paid model APIs.
 
-Use **course order** when the user mentions teaching, learning, lessons, or following the roadmap. Otherwise use **project priority**.
+Use **course order** when the user mentions teaching, learning, lessons, or following the implementation order in `docs/需求文档.md`. Otherwise use **project priority**.
 
 ## Evidence to inspect
 
@@ -22,8 +22,8 @@ Start with the smallest read-only inspection that can support the decision:
 
 1. Read the repository `AGENTS.md` completely.
 2. Inspect `git status --short --branch` and recent commit subjects.
-3. Read the headings in `docs/development-roadmap.md`, then read the section for the likely current stage.
-4. Read only the relevant acceptance criteria in `docs/product-requirements.md` and, for UI work, `docs/page-interaction-guide.md` or `docs/responsive-design-spec.md`.
+3. Read the relevant module and acceptance points in `docs/需求文档.md`; for course order, also read its suggested implementation order.
+4. For UI work, inspect the current page and relevant design images when needed.
 5. Inspect the implementation, package scripts, tests, and configuration that provide evidence for that stage.
 6. Run a focused check when its result changes the recommendation. Do not run costly generation jobs or mutate data merely to diagnose progress.
 
@@ -54,7 +54,7 @@ Recommend exactly one smallest coherent loop that can end in a useful Git commit
 
 In **course order**:
 
-1. Find the earliest roadmap stage that is not complete.
+1. Find the earliest module in the suggested implementation order that is not complete.
 2. Within it, choose the smallest missing user-visible or data-integrity loop.
 3. Do not move to the next stage until the current stage's required acceptance criteria are satisfied or explicitly deferred by the user.
 
@@ -65,7 +65,7 @@ In **project priority** apply this order:
 3. The current unfinished worktree task.
 4. A partial core user flow.
 5. Missing verification for a flow that appears complete.
-6. The next roadmap capability.
+6. The next documented capability.
 7. Optional polish or expansion.
 
 Prefer a vertical loop such as “rename a workflow through UI, API, persistence, and error handling” over a horizontal task such as “create all remaining database tables”.
