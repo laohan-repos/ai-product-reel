@@ -6,38 +6,38 @@
 
 | 页面 | 截图 |
 | --- | --- |
-| 作品列表 | [01-projects.png](./01-projects.png) |
-| 素材库 | [02-assets.png](./02-assets.png) |
-| 模型设置 | [03-model-settings.png](./03-model-settings.png) |
-| 批量生成 | [04-batch-generation.png](./04-batch-generation.png) |
-| 第 1 步：参考视频预览图 | [05-step-1-reference-overview.png](./05-step-1-reference-overview.png) |
-| 第 2 步：产品预览图 | [06-step-2-product-overview.png](./06-step-2-product-overview.png) |
-| 第 3 步：产品视频方案 | [07-step-3-video-plan.png](./07-step-3-video-plan.png) |
-| 方案查看器 | [08-video-plan-detail.png](./08-video-plan-detail.png) |
-| 第 4 步：产品关键帧 | [09-step-4-keyframes.png](./09-step-4-keyframes.png) |
-| 第 5 步：分镜视频 | [10-step-5-clips.png](./10-step-5-clips.png) |
-| 第 6 步：完整视频与剪映草稿 | [11-step-6-final-video.png](./11-step-6-final-video.png) |
-| 新建作品弹窗 | [12-create-workflow.png](./12-create-workflow.png) |
-| 新建素材组弹窗 | [13-create-asset-group.png](./13-create-asset-group.png) |
-| 关键帧提示词编辑 | [14-keyframe-prompt.png](./14-keyframe-prompt.png) |
-| 分镜视频提示词编辑 | [15-video-prompt.png](./15-video-prompt.png) |
-| 成片播放器 | [16-final-video-player.png](./16-final-video-player.png) |
+| 作品列表 | [01-作品列表.png](./01-作品列表.png) |
+| 素材库 | [02-素材库.png](./02-素材库.png) |
+| 模型设置 | [03-模型设置.png](./03-模型设置.png) |
+| 批量生成 | [04-批量生成.png](./04-批量生成.png) |
+| 第 1 步：参考视频预览图 | [05-第一步-参考视频预览.png](./05-第一步-参考视频预览.png) |
+| 第 2 步：产品预览图 | [06-第二步-产品预览.png](./06-第二步-产品预览.png) |
+| 第 3 步：产品视频方案 | [07-第三步-产品视频方案.png](./07-第三步-产品视频方案.png) |
+| 方案查看器 | [08-方案查看器.png](./08-方案查看器.png) |
+| 第 4 步：产品关键帧 | [09-第四步-产品关键帧.png](./09-第四步-产品关键帧.png) |
+| 第 5 步：分镜视频 | [10-第五步-分镜视频.png](./10-第五步-分镜视频.png) |
+| 第 6 步：完整视频与剪映草稿 | [11-第六步-完整视频与剪映草稿.png](./11-第六步-完整视频与剪映草稿.png) |
+| 新建作品弹窗 | [12-新建作品弹窗.png](./12-新建作品弹窗.png) |
+| 新建素材组弹窗 | [13-新建素材组弹窗.png](./13-新建素材组弹窗.png) |
+| 关键帧提示词编辑 | [14-关键帧提示词编辑.png](./14-关键帧提示词编辑.png) |
+| 分镜视频提示词编辑 | [15-分镜视频提示词编辑.png](./15-分镜视频提示词编辑.png) |
+| 成片播放器 | [16-成片播放器.png](./16-成片播放器.png) |
 
-[ai-product-reel-pc.png](./ai-product-reel-pc.png) 是 README 使用的桌面端封面，展示第 4 步。
+[桌面端-封面.png](./桌面端-封面.png) 是 README 使用的桌面端封面，展示第 4 步。
 
 ## 移动端
 
 | 页面 | 截图 |
 | --- | --- |
-| 作品列表 | [mobile-00-projects.png](./mobile-00-projects.png) |
-| 素材库 | [mobile-assets.png](./mobile-assets.png) |
-| 模型设置 | [mobile-model-settings.png](./mobile-model-settings.png) |
-| 批量生成 | [mobile-batch-generation.png](./mobile-batch-generation.png) |
-| 第 1 步：参考视频预览图 | [mobile-01-reference-overview.png](./mobile-01-reference-overview.png) |
-| 第 2 步：产品预览图 | [mobile-02-product-overview.png](./mobile-02-product-overview.png) |
-| 第 3 步：产品视频方案 | [mobile-03-video-plan.png](./mobile-03-video-plan.png) |
-| 第 4 步：产品关键帧 | [ai-product-reel-mobile.png](./ai-product-reel-mobile.png) |
-| 第 5 步：分镜视频 | [mobile-05-clips.png](./mobile-05-clips.png) |
-| 第 6 步：完整视频与剪映草稿 | [mobile-06-final-video.png](./mobile-06-final-video.png) |
+| 作品列表 | [移动端-00-作品列表.png](./移动端-00-作品列表.png) |
+| 素材库 | [移动端-素材库.png](./移动端-素材库.png) |
+| 模型设置 | [移动端-模型设置.png](./移动端-模型设置.png) |
+| 批量生成 | [移动端-批量生成.png](./移动端-批量生成.png) |
+| 第 1 步：参考视频预览图 | [移动端-01-参考视频预览.png](./移动端-01-参考视频预览.png) |
+| 第 2 步：产品预览图 | [移动端-02-产品预览.png](./移动端-02-产品预览.png) |
+| 第 3 步：产品视频方案 | [移动端-03-产品视频方案.png](./移动端-03-产品视频方案.png) |
+| 第 4 步：产品关键帧 | [移动端-封面.png](./移动端-封面.png) |
+| 第 5 步：分镜视频 | [移动端-05-分镜视频.png](./移动端-05-分镜视频.png) |
+| 第 6 步：完整视频与剪映草稿 | [移动端-06-完整视频与剪映草稿.png](./移动端-06-完整视频与剪映草稿.png) |
 
 当前数据库中的素材组均已生成，因此批量生成截图显示空状态。移动端素材库目前存在横向溢出，截图按实际 430px 视口保留了这一现状。

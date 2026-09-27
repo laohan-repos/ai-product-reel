@@ -8,12 +8,12 @@
 
 ### PC 端
 
-![AI Product Reel PC 端真实运行界面](./docs/design/ai-product-reel-pc.png)
+![AI Product Reel PC 端真实运行界面](./docs/design/桌面端-封面.png)
 
 ### 移动端
 
 <p align="center">
-  <img src="./docs/design/ai-product-reel-mobile.png" width="420" alt="AI Product Reel 移动端真实运行界面" />
+  <img src="./docs/design/移动端-封面.png" width="420" alt="AI Product Reel 移动端真实运行界面" />
 </p>
 
 [查看全部桌面端和移动端截图](./docs/design/README.md)。
